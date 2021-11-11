@@ -12,7 +12,7 @@ public class Main {
 
     }
 
-    public static void atenderAlHilo(){
+    public static void atenderAlHilo(Hilos Hilos){
         try {
             //el primero que llega pasa
             System.out.println("He llegado" +Hilos.id);
